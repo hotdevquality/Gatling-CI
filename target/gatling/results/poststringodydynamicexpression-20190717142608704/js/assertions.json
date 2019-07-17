@@ -1,0 +1,10 @@
+{
+  "simulation": "dynamics.PostStringodyDynamicExpression",
+  "simulationId": "poststringodydynamicexpression",
+  "start": 1563373568704,
+  "description": "",
+  "scenarios": ["CreateLink"],
+  "assertions": [
+
+  ]
+}

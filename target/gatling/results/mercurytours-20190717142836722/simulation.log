@@ -1,0 +1,14 @@
+ASSERTION	AAIEAAEBBgAAAAAAAABOQA==
+ASSERTION	AAMDAAIGAAAAAAAAABRA
+RUN	hotdevquality.MercuryTours	mercurytours	1563373716722	 	3.0.2
+USER	MercuryTours	1	START	1563373718102	1563373718102
+REQUEST	1		Homepage	1563373718127	1563373728368	KO	substring(userName).find.exists, found nothing
+REQUEST	1		Login	1563373737472	1563373797475	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to newtours.demoaut.com/192.145.235.162:80 after 60000 ms
+REQUEST	1		SearchFlight	1563373807397	1563373810189	OK	 
+REQUEST	1		SearchFlight Redirect 1	1563373810200	1563373810598	KO	css((input[name='outFlight'],Some(value))).find.exists, found nothing
+ERROR	SelectFlight: Failed to build request: No attribute named 'Corr_outFlight' is defined 	1563373820758
+REQUEST	1		BookFlight	1563373830972	1563373831277	OK	 
+ERROR	request_50: Failed to build request: No attribute named 'Fname1' is defined 	1563373831286
+REQUEST	1		Logout	1563373842548	1563373843251	OK	 
+REQUEST	1		Logout Redirect 1	1563373843252	1563373843664	OK	 
+USER	MercuryTours	1	END	1563373718102	1563373844174

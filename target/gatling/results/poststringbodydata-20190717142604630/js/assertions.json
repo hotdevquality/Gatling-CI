@@ -1,0 +1,10 @@
+{
+  "simulation": "dynamics.PostStringBodyData",
+  "simulationId": "poststringbodydata",
+  "start": 1563373564630,
+  "description": "",
+  "scenarios": ["CreateLink"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "destination": "${destination}",
+  "slashtag": "${slashtag}",
+  "title": "${title}"
+}

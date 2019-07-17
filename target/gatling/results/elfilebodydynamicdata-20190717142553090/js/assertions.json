@@ -1,0 +1,10 @@
+{
+  "simulation": "dynamics.ELFileBodyDynamicData",
+  "simulationId": "elfilebodydynamicdata",
+  "start": 1563373553090,
+  "description": "",
+  "scenarios": ["CreateLink"],
+  "assertions": [
+
+  ]
+}

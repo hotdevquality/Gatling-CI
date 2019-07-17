@@ -1,0 +1,10 @@
+{
+  "simulation": "dynamics.PostELFileBodyDynamicData",
+  "simulationId": "postelfilebodydynamicdata",
+  "start": 1563373557450,
+  "description": "",
+  "scenarios": ["CreateLink"],
+  "assertions": [
+
+  ]
+}

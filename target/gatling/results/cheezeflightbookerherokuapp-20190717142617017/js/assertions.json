@@ -1,0 +1,10 @@
+{
+  "simulation": "hotdevquality.CheezeFlightBookerHerokuapp",
+  "simulationId": "cheezeflightbookerherokuapp",
+  "start": 1563373577017,
+  "description": "",
+  "scenarios": ["CheezeFlightBookerHerokuapp"],
+  "assertions": [
+
+  ]
+}

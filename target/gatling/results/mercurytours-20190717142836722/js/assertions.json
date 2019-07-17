@@ -1,0 +1,81 @@
+{
+  "simulation": "hotdevquality.MercuryTours",
+  "simulationId": "mercurytours",
+  "start": 1563373716722,
+  "description": "",
+  "scenarios": ["MercuryTours"],
+  "assertions": [
+{
+  "path": "Homepage",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [60.0],
+  "result": false,
+  "message": "Homepage: max of response time is less than 60.0",
+  "actualValue": [10241.0]
+},
+{
+  "path": "Login",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [60.0],
+  "result": false,
+  "message": "Login: max of response time is less than 60.0",
+  "actualValue": [60003.0]
+},
+{
+  "path": "SearchFlight",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [60.0],
+  "result": false,
+  "message": "SearchFlight: max of response time is less than 60.0",
+  "actualValue": [2792.0]
+},
+{
+  "path": "SearchFlight Redirect 1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [60.0],
+  "result": false,
+  "message": "SearchFlight Redirect 1: max of response time is less than 60.0",
+  "actualValue": [398.0]
+},
+{
+  "path": "BookFlight",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [60.0],
+  "result": false,
+  "message": "BookFlight: max of response time is less than 60.0",
+  "actualValue": [305.0]
+},
+{
+  "path": "Logout",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [60.0],
+  "result": false,
+  "message": "Logout: max of response time is less than 60.0",
+  "actualValue": [703.0]
+},
+{
+  "path": "Logout Redirect 1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [60.0],
+  "result": false,
+  "message": "Logout Redirect 1: max of response time is less than 60.0",
+  "actualValue": [412.0]
+},
+{
+  "path": "Global",
+  "target": "percentage of failed requests",
+  "condition": "is less than",
+  "expectedValues": [5.0],
+  "result": false,
+  "message": "Global: percentage of failed requests is less than 5.0",
+  "actualValue": [42.857142857142854]
+}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "openModels.SimpleGetScript",
+  "simulationId": "simplegetscript",
+  "start": 1563396362375,
+  "description": "",
+  "scenarios": ["Basic Open Model"],
+  "assertions": [
+
+  ]
+}

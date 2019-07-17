@@ -1,0 +1,10 @@
+{
+  "simulation": "dynamics.PostRawFileBodyData",
+  "simulationId": "postrawfilebodydata",
+  "start": 1563373560928,
+  "description": "",
+  "scenarios": ["CreateLink"],
+  "assertions": [
+
+  ]
+}

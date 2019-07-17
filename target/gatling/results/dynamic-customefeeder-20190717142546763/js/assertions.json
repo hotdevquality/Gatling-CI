@@ -1,0 +1,10 @@
+{
+  "simulation": "dynamics.Dynamic_CustomeFeeder",
+  "simulationId": "dynamic-customefeeder",
+  "start": 1563373546763,
+  "description": "",
+  "scenarios": ["CreateLink"],
+  "assertions": [
+
+  ]
+}

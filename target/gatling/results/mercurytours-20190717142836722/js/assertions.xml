@@ -1,0 +1,26 @@
+<testsuite name="hotdevquality.MercuryTours" tests="8" errors="0" failures="8" time="0">
+<testcase name="Homepage: max of response time is less than 60.0" status="false" time="0">
+  <failure type="Homepage">Actual value: 10241.0</failure>
+</testcase>
+<testcase name="Login: max of response time is less than 60.0" status="false" time="0">
+  <failure type="Login">Actual value: 60003.0</failure>
+</testcase>
+<testcase name="SearchFlight: max of response time is less than 60.0" status="false" time="0">
+  <failure type="SearchFlight">Actual value: 2792.0</failure>
+</testcase>
+<testcase name="SearchFlight Redirect 1: max of response time is less than 60.0" status="false" time="0">
+  <failure type="SearchFlight Redirect 1">Actual value: 398.0</failure>
+</testcase>
+<testcase name="BookFlight: max of response time is less than 60.0" status="false" time="0">
+  <failure type="BookFlight">Actual value: 305.0</failure>
+</testcase>
+<testcase name="Logout: max of response time is less than 60.0" status="false" time="0">
+  <failure type="Logout">Actual value: 703.0</failure>
+</testcase>
+<testcase name="Logout Redirect 1: max of response time is less than 60.0" status="false" time="0">
+  <failure type="Logout Redirect 1">Actual value: 412.0</failure>
+</testcase>
+<testcase name="Global: percentage of failed requests is less than 5.0" status="false" time="0">
+  <failure type="Global">Actual value: 42.857142857142854</failure>
+</testcase>
+</testsuite>

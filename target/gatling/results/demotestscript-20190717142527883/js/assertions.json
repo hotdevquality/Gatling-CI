@@ -1,0 +1,10 @@
+{
+  "simulation": "demos.DemoTestScript",
+  "simulationId": "demotestscript",
+  "start": 1563373527883,
+  "description": "",
+  "scenarios": ["viewCruises"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "serverSideEvent.SSE_Example1",
+  "simulationId": "sse-example1",
+  "start": 1563316396065,
+  "description": "",
+  "scenarios": ["SSE Scenario"],
+  "assertions": [
+
+  ]
+}
