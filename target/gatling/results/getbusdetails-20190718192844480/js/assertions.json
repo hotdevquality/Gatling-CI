@@ -1,0 +1,27 @@
+{
+  "simulation": "sessionmanagement.GetBusDetails",
+  "simulationId": "getbusdetails",
+  "start": 1563478124480,
+  "description": "",
+  "scenarios": ["Bus Search"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [50.0],
+  "result": false,
+  "message": "Global: max of response time is less than 50.0",
+  "actualValue": [4176.0]
+},
+{
+  "path": "Global",
+  "target": "percentage of successful requests",
+  "condition": "is",
+  "expectedValues": [100.0],
+  "result": true,
+  "message": "Global: percentage of successful requests is 100.0",
+  "actualValue": [100.0]
+}
+  ]
+}

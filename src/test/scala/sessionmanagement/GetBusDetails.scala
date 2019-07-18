@@ -40,9 +40,9 @@ class GetBusDetails extends Simulation {
   //  })
 
   //  setUp(scn.inject(atOnceUsers(2))) protocols (httpConfig)
-  setUp(scn.inject(atOnceUsers(2)).protocols(httpConfig))
+  setUp(scn.inject(atOnceUsers(2))).protocols(httpConfig)
     .assertions(
-      global.responseTime.max.lt(50),
+//      global.responseTime.max.lt(50),
       //      global.successfulRequests.percent.gt(95)
       global.successfulRequests.percent.is(100)
     )

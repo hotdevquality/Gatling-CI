@@ -1,0 +1,18 @@
+{
+  "simulation": "sessionmanagement.GetBusDetails",
+  "simulationId": "getbusdetails",
+  "start": 1563478402233,
+  "description": "",
+  "scenarios": ["Bus Search"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "percentage of successful requests",
+  "condition": "is",
+  "expectedValues": [100.0],
+  "result": true,
+  "message": "Global: percentage of successful requests is 100.0",
+  "actualValue": [100.0]
+}
+  ]
+}
