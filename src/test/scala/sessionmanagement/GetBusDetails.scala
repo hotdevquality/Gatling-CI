@@ -9,8 +9,8 @@ class GetBusDetails extends Simulation {
     .baseUrl("http://developer.goibibo.com/api")
 
   val appId = "796bdc4e"
-  //  val appKey = "694b0a0f930576bf40d4aa4d14c69ed0"
-  val appKey = "694b0a0f930576bf40d4aa4d14c69e"
+  val appKey = "694b0a0f930576bf40d4aa4d14c69ed0"
+  //  val appKey = "694b0a0f930576bf40d4aa4d14c69e"
   //  val source = "London"
   //  val dest = "Manchester"
   val depatDate = "20190730"
@@ -43,7 +43,7 @@ class GetBusDetails extends Simulation {
   setUp(scn.inject(atOnceUsers(2)).protocols(httpConfig))
     .assertions(
       global.responseTime.max.lt(50),
-//      global.successfulRequests.percent.gt(95)
+      //      global.successfulRequests.percent.gt(95)
       global.successfulRequests.percent.is(100)
     )
 }
